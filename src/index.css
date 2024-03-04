@@ -40,8 +40,7 @@
     #fce1e0 0.89%,
     /* lighter shade of red */ #f9b2b3 17.23%,
     /* medium shade of red */ #f47d7f 42.04%,
-    /* darker shade of red #e8344e 55.12%, */
-    /* your color */ #f1334f 71.54%,
+    /* darker shade of red #e8344e 55.12%, */ /* your color */ #f1334f 71.54%,
     /* slightly lighter shade of red */ #e8344e 100% /* your color */
   );
   -webkit-background-clip: text;
@@ -66,7 +65,6 @@
   text-fill-color: transparent;
 }
 
-
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
@@ -76,6 +74,19 @@
     #7de7eb 29.82%,
     #5ce1e6 51.94%,
     #33bbcf 90.29%
+  );
+}
+
+.bg-red-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%,
+    #e8344f 100%
   );
 }
 
@@ -169,6 +180,10 @@
 
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
+.red__gradient {
+  background: rgba(232, 52, 79, 0.6);
   filter: blur(750px);
 }
 
