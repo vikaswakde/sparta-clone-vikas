@@ -28,8 +28,11 @@ const Business = () => (
   <section id="community" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Chosen by 500,000 students
-        <strong className="tex-gradient-red"> Sparta Coding Club</strong>
+        Chosen by 500,000 students <br className="sm:block hidden" />
+        <strong className="text-gradient-text-strong">
+          {" "}
+          Sparta Coding Club
+        </strong>
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}></p>
       <Button styles={`mt-10`} />
