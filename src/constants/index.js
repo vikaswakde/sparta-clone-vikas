@@ -1,21 +1,21 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star } from '../assets';
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, send, shield, star } from '../assets';
 
 export const navLinks = [
     {
         id: 'home',
-        title: "Full Lectures"
+        title: "Home"
     },
     {
-        id: 'features',
+        id: 'community',
         title: "Community"
     },
     {
-        id: "blog",
-        title: "Blog"
+        id: "bootcamp",
+        title: "Bootcamp"
     },
     {
-        id: "event",
-        title: "Event"
+        id: "testimonials",
+        title: "Testimonials"
     }
 ]
 
@@ -23,23 +23,23 @@ export const features = [
     {
         id: "feature-1",
         icon: star,
-        title: "Rewards",
+        title: "Free special lecture",
         content:
-            "The best credit card offer some tantalizing combinations of promotions and prizes",
+            "Want to have fun with coding? Easy 1-hour crafting lesson designed for you"
     },
     {
         id: "feature-2",
         icon: shield,
-        title: "100% Secured",
+        title: "Online Lecture",
         content:
-            "We take proactive steps make sure your information and transcations are secure."
+            "Full of accomplishment! 4-6 week course basic lectures with practical training"
     },
     {
         id: "feature-3",
         icon: send,
-        title: "Balance Transfer",
+        title: "Employment Boot Camp",
         content:
-            "A balance transfer credit card can save you a lot of money in interest charges.",
+            "dream of gettting a job in the IT field, take the 4-month immersive bott camp.",
     },
 
 ]
@@ -48,25 +48,25 @@ export const feedback = [
     {
         id: "feedback-1",
         content:
-            "Money is only a tool. It will take you wherever you wish, but it will not replace you as a the driver",
-        name: "Herman Jensen",
-        title: "Founder & Leader",
+            "I compared all boot camps and chose the one where I could immerse myself the most.",
+        name: "Bohyung Lee",
+        title: "Node.js developer",
         img: people01,
     },
     {
         id: "feedback-2",
         content:
-            "Money makes your life easier. If you're lucky to have it, you're lucky.",
-        name: "Steve Mark",
-        title: "Founder & Leader",
+            "Thanks to the communication skills I developed at Tomorrow Learning Camp, I was able to get a job as a new developer in Japan.",
+        name: "Kyungsoo Kim",
+        title: "Developer in Osaka, Japan",
         img: people02,
     },
     {
         id: "feedback-3",
         content:
-            "It is usually people in the money business, finance, and international trade that are really rich.",
-        name: "Kenn Gallagher",
-        title: "Founder & Leader",
+            "They really helped me a lot when I was looking for a job.",
+        name: "Ki-dong Lee",
+        title: "Front-end developer at Hancom Frontis,",
         img: people03,
     },
 ]
@@ -91,68 +91,72 @@ export const stats = [
 
 export const footerLinks = [
     {
-        title: "Useful Links",
+        title: "Service",
         links: [
             {
-                name: "Content",
-                link: "https://www.hoobank.com/content"
+                name: "full lecture",
+                link: "https://spartacodingclub.kr"
             },
             {
-                name: "How it works",
-                link: "https://www.hoobank.com/how-it-works"
+                name: "Gov Funded Bootcamp",
+                link: "https://spartacodingclub.kr"
             },
             {
-                name: "Create",
-                link: "https://www.hoobank.com/create"
-            },
-            {
-                name: "Explore",
-                link: 'https://www.hoobank.com/explore'
-            },
-
-            {
-                name: "Terms & Services",
-                link: "https://www.hoobank.com/terms-and-services/",
-            },
-
-        ]
-    },
-    {
-        title: "Community",
-        links: [
-            {
-                name: "Help Center",
-                link: "https://www.hoobank.com/help-center"
-            },
-            {
-                name: "Partners",
-                link: "https://www.hoobank.com/partners/",
-            },
-            {
-                name: "Suggestions",
-                link: "https://www.hoobank.com/suggestions/",
+                name: "Community",
+                link: "https://spartacodingclub.kr"
             },
             {
                 name: "Blog",
-                link: "https://www.hoobank.com/blog/",
+                link: "https://spartacodingclub.kr"
+            },
+
+            {
+                name: "Event",
+                link: "https://spartacodingclub.kr"
+            },
+
+        ]
+    },
+    {
+        title: "Corporate Site",
+        links: [
+            {
+                name: "Corporate Training",
+                link: "https://spartacodingclub.kr"
             },
             {
-                name: "Newsletters",
-                link: "https://www.hoobank.com/newsletters/",
+                name: "Outsourcing Development",
+                link: "https://spartacodingclub.kr"
+            },
+            {
+                name: "Hiring New Developers",
+                link: "https://spartacodingclub.kr"
             },
         ]
     },
     {
-        title: "Partner",
+        title: "Compnay",
         links: [
             {
-                name: "Our Partner",
-                link: "https://www.hoobank.com/our-partner/",
+                name: "Course Tutor Support",
+                link: "https://spartacodingclub.kr"
             },
             {
-                name: "Become a Partner",
-                link: "https://www.hoobank.com/become-a-partner/",
+                name: "Bootcamp Tutor",
+                link: "https://spartacodingclub.kr"
             },
+            {
+                name: "Partner Support",
+                link: "https://spartacodingclub.kr"
+            }, {
+                name: "Talent Recruitment",
+                link: "https://spartacodingclub.kr"
+            },
+            {
+                name: "Team Blog",
+                link: "https://spartacodingclub.kr"
+            },
+
         ]
     }
 ]
@@ -177,24 +181,5 @@ export const socialMedia = [
         id: "social-media-4",
         icon: linkedin,
         link: "https://www.linkedin.com/",
-    },
-]
-
-export const clients = [
-    {
-        id: 'client-1',
-        logo: airbnb,
-    },
-    {
-        id: "client-2",
-        logo: binance,
-    },
-    {
-        id: "client-3",
-        logo: coinbase,
-    },
-    {
-        id: "client-4",
-        logo: dropbox,
     },
 ]

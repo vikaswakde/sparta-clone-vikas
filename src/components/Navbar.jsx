@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex items-center justify-between w-full py-6 navbar">
-      <img src={logo} alt="image-logo" className="w-[124px] h-[32px]" />
+      <img src={logo} alt="sparta-logo" className="w-[124px] h-[32px]" />
       <ul className="items-center justify-end flex-1 hidden list-none sm:flex text-white">
         {navLinks.map((nav, index) => (
           <li

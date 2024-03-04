@@ -1,5 +1,5 @@
 import styles from "../style";
-import { robot, discount } from "../assets";
+import { heroPerson, discount } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => (
@@ -17,7 +17,7 @@ const Hero = () => (
       <div className="flex flex-row justify-between items-center w-full">
         <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
           The Next <br className="sm:block hidden" />{" "}
-          <span className="text-gradient-education">Education</span>
+          <span className="text-gradient-red">Education</span>
         </h1>
         <div className="ss:flex hidden md:mr-4 mr-0">
           <GetStarted />
@@ -42,7 +42,7 @@ const Hero = () => (
 
     <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
       <img
-        src={robot}
+        src={heroPerson}
         className="w-[100%] h-auto relative z-[5] mb-10 transform -scale-x-100 ml-10"
       />
 
