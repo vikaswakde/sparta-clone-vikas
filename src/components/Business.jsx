@@ -29,7 +29,7 @@ const Business = () => (
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         Chosen by 500,000 students <br className="sm:block hidden" />
-        <strong className="text-gradient-text-strong">
+        <strong className="text-gradient-text-strong text-border">
           {" "}
           Sparta Coding Club
         </strong>
