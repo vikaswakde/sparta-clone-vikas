@@ -1,6 +1,6 @@
-import managment from './managment.png'
-import handHolding from "./handHolding.png";
-import logo from "./logo.svg";
+import billing from './billing.png'
+import webApp from "./web-app.png";
+import logo from "./logo.png";
 import quotes from "./quotes.svg";
 import heroPerson from "./heroPerson.png";
 import send from "./Send.svg";
@@ -18,10 +18,12 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import complete from "./complete.png";
+import training from "./training.png"
 
 export {
-  managment,
-  handHolding,
+  billing,
+  webApp,
+  training,
   complete,
   logo,
   quotes,

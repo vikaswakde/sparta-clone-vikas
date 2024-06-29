@@ -1,14 +1,14 @@
-import { billing, complete } from "../assets";
+import { billing, complete, training } from "../assets";
 import styles, { layout } from "../style";
 
-const Managment = () => {
+const Training = () => {
   return (
     // <section id="bootcamp" className={layout.sectionReverse}>
     <section id="services" className={layout.sectionReverse}>
       <div className={layout.sectionImgReverse}>
         <img
-          src={billing}
-          alt="billing"
+          src={training}
+          alt="training"
           className="w-[100%] h-[100%] relative z-[5] filter brightness-90 rounded-md hover:border-gray-200 hover:border-2"
         />
 
@@ -19,21 +19,21 @@ const Managment = () => {
       </div>
 
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>Billing Services</h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Simplify billing with our powerful software solutions.CollabCarze streamlines revenue management, ensuring accuracy and efficiency. Experience effortless billing today!
+        <h2 className={styles.heading2}>Training from Industry Experts</h2>
+        <p className={`${styles.paragraph} max-w-[470px] font-semibold mt-5`}>
+          <span className="underline"> Our program includes:</span>
+          <ul className={`${styles.paragraph} max-w-[470px] mt-2`}>
+            <li>LinkedIn Profile Building</li>
+            <li>Open source contribution on Github</li>
+            <li>Resume Building</li>
+            <li>Learning in Public</li>
+            <li>Career Counselling</li>
+            <li>Competitive Programming</li>
+          </ul>
         </p>
-        <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-
-          {/* <img
-            src={complete}
-            alt="tick-img"
-            className="w-[120px] h-[60px] object-contain mr-5 "
-          />{" "} */}
-        </div>
       </div>
     </section>
   );
 };
 
-export default Managment;
+export default Training;

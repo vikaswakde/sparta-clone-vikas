@@ -28,15 +28,14 @@ const Hero = () => (
         Revolution
       </h1>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        The perfect learning environment for beginners in coding <br></br>{" "}
+      Choosing CollabCraze means selecting an <br></br>{" "}
         <div className="max-w-xl selection:bg-purple-300 selection:text-purple-900">
           {" "}
-          <mark className="bg-yellow-300 pt-1 pb-1 fully-rounded">
-            Sparta Coding Club provides the optimal learning environment for
-            beginners
+          <mark className="bg-yellow-200 pt-1 pb-1 rounded-lg p-2 font-extralight">
+          innovative partner committed to delivering cost-effective technology solutions
           </mark>
         </div>{" "}
-        so that they can take classes without interruption until completion.
+        tailored to your business needs. 
       </p>
     </div>
 

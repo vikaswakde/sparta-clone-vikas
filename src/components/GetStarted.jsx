@@ -11,9 +11,11 @@ const GetStarted = () => (
     }}
   >
     <div
-      className={`${styles.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-full`}
+      className={`${styles.flexCenter}  flex-col bg-primary w-[100%] h-[100%] rounded-full`}
     >
       <div className={`${styles.flexStart} flex-row`}>
+     
+          <a href="#contactus">
         <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
           <span className="text-gradient">Get</span>
         </p>
@@ -21,7 +23,8 @@ const GetStarted = () => (
           src={arrowUp}
           alt="arrow-up"
           className="w-[23px] h-[23px] object-contain"
-        />
+          />
+          </a>
       </div>
       <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
         <span className="text-gradient">Started</span>

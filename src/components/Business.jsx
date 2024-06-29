@@ -31,7 +31,7 @@ const Business = () => (
         Chosen by 500,000 students <br className="sm:block hidden" />
         <strong className="text-gradient-text-strong text-border">
           {" "}
-          Sparta Coding Club
+          CollabCraze
         </strong>
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}></p>

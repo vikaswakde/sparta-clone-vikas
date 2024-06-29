@@ -6,8 +6,10 @@ import {
   Business,
   Manage,
   HandHolding,
+  Training,
   Testimonials,
   Footer,
+  ContactUs,
 } from "./components/index";
 
 const App = () => {
@@ -30,7 +32,9 @@ const App = () => {
             <Business />
             <Manage />
             <HandHolding />
+            <Training />
             <Testimonials />
+            <ContactUs />
             <Footer />
           </div>
         </div>
